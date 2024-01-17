@@ -2,7 +2,7 @@ import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 function Navbar() {
   return (
-    <nav className=" flex items-center justify-between px-4 py-2 bg-[#4f63f9] drop-shadow-lg ">
+    <nav className=" flex items-center justify-between px-4 py-2 bg-light-denim drop-shadow-lg ">
       <button className="w-36 text-left focus:outline-2 focus:outline rounded-full">
         <MenuIcon />
       </button>
