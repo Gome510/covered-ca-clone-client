@@ -13,7 +13,7 @@ function OpenEnrollForm() {
 
   return (
     <form
-      className="w-full flex flex-col bg-white text-black text-left rounded-lg py-8 gap-3 "
+      className="w-full flex flex-col bg-white text-black text-left rounded-t-lg md:rounded-l-lg md:rounded-tr-none py-8 gap-3 "
       onSubmit={handleFormSubmit}
     >
       <div className="grid grid-cols-2 sm:grid-cols-3">

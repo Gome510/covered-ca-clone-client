@@ -3,7 +3,7 @@ import CheckIcon from "@mui/icons-material/Check";
 
 function QuickQuote() {
   return (
-    <div className="bg-light-denim flex flex-col items-center text-white gap-4">
+    <div className="bg-light-denim flex flex-col items-center rounded-b-lg md:rounded-r-lg md:rounded-bl-none text-white gap-4">
       <h3 className="font-bold text-xl mt-8">Quick Quote</h3>
 
       <div className="rounded-full w-40 h-40 border-pacific-blue border-8 flex justify-center items-center relative">
