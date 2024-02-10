@@ -16,10 +16,10 @@ function OpenEnrollForm() {
       className="w-full flex flex-col bg-white text-black text-left rounded-t-lg md:rounded-l-lg md:rounded-tr-none py-8 gap-3 "
       onSubmit={handleFormSubmit}
     >
-      <div className="grid grid-cols-2 sm:grid-cols-3">
+      <div className="grid grid-cols-2 md:grid-cols-3">
         <HouseholdIncome />
         <ZipCode />
-        <div className="col-span-1"></div>
+        <div className="hidden md:block col-span-1"></div>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 ">
         <HouseholdSize />
