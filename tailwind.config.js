@@ -8,6 +8,7 @@ export default {
         denim: "#2E3FBD",
         "light-denim": "#4f63f9",
         "pacific-blue": "#17B8CA",
+        input: "#F6F9FF",
       },
     },
   },

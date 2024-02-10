@@ -9,7 +9,7 @@ function HouseholdSize() {
       </label>
       <div className="relative">
         <select
-          className="w-full bg-gray-100 border-b-2 border-solid border-black leading-9 pl-5 text-lg h-10"
+          className="w-full bg-input border-b-2 border-solid border-black leading-9 pl-5 text-lg h-10"
           name="household-size"
           id="household-size"
         >

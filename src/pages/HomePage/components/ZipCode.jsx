@@ -8,7 +8,7 @@ function ZipCode() {
       </label>
       <div className="relative">
         <input
-          className="w-full md:max-w-[160px] bg-gray-100 border-b-2 border-solid border-black leading-9 pl-5 text-lg "
+          className="w-full md:max-w-[160px] bg-input border-b-2 border-solid border-black leading-9 pl-5 text-lg "
           id="zip-code"
           type="number"
           placeholder="95834"

@@ -11,7 +11,7 @@ function HouseholdIncome() {
       <div className="relative">
         <AttachMoneyIcon className="absolute top-2 left-2" fontSize="small" />
         <input
-          className="w-full md:max-w-[160px] bg-gray-100 border-b-2 border-solid border-black leading-9 pl-10 text-lg "
+          className="w-full md:max-w-[160px] bg-input border-b-2 border-solid border-black leading-9 pl-10 text-lg "
           id="household-income"
           type="number"
           placeholder="28,000"
