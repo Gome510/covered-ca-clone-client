@@ -1,8 +1,8 @@
 import React from "react";
-import "./OpenEnrollment.css";
 
 import OpenEnrollForm from "./OpenEnrollForm";
 import QuickQuote from "./QuickQuote";
+import MobileStartOver from "../components/MobileStartOver";
 
 function OpenEnrollment() {
   return (
@@ -19,6 +19,7 @@ function OpenEnrollment() {
       <div className="md:flex">
         <OpenEnrollForm />
         <QuickQuote />
+        <MobileStartOver />
       </div>
     </section>
   );

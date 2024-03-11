@@ -3,11 +3,11 @@ import CheckIcon from "@mui/icons-material/Check";
 
 function QuickQuote() {
   return (
-    <div className="bg-light-denim flex flex-col items-center rounded-b-lg md:rounded-r-lg md:rounded-bl-none text-white gap-4">
+    <div className="bg-light-denim flex flex-col items-center  md:rounded-r-lg md:rounded-bl-none p-4 text-white gap-4">
       <h3 className="font-bold text-xl mt-8">Quick Quote</h3>
 
       <div className="rounded-full w-40 h-40 border-pacific-blue border-8 flex justify-center items-center relative">
-        <div className="absolute w-6 h-6 top-[-15px] rounded-full bg-pacific-blue">
+        <div className="absolute w-8 h-8 top-[-20px] rounded-full bg-pacific-blue flex justify-center items-center">
           <CheckIcon fontSize="small" />
         </div>
 
@@ -24,7 +24,7 @@ function QuickQuote() {
       <p>
         After financial help from: <strong>Covered California</strong>
       </p>
-      <hr />
+      <span className="w-full border border-white"></span>
       <div></div>
     </div>
   );

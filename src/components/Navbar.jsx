@@ -15,7 +15,7 @@ function Navbar() {
       </div>
       <div className="w-36 flex justify-end">
         <button className="flex items-center border border-white rounded-full px-4 py-0.5 font-bold text-sm">
-          SHOP
+          LOGIN
         </button>
       </div>
     </nav>
