@@ -12,7 +12,7 @@ function Navbar() {
       <div className="">
         <img
           width={40}
-          src="https://enrollca.com/wp-content/uploads/2021/05/CCA-Logo.png"
+          src="/assets/images/CCA-Logo-mobile.svg"
           alt="Covered California Logo"
         />
       </div>
