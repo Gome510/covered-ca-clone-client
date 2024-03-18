@@ -45,6 +45,7 @@ function ApplyNow() {
 
       <img
         className="absolute -z-10  bottom-0 right-0"
+        fetchpriority="high"
         width={400}
         src="/assets/images/SEP-24-hero-small.webp"
         alt="Smiling mother carrying young son on her shoulders"
