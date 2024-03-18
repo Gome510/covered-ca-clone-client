@@ -5,13 +5,13 @@ import CoverageEnding from "./sections/CoverageEnding";
 
 export default function HomePage() {
   return (
-    <div className=" ">
+    <>
       <Navbar />
       {/* <section>Navbar Dropdown</section> */}
       <ApplyNow />
       <div className=" bg-primary h-16 shadow-md"></div>
 
       <CoverageEnding />
-    </div>
+    </>
   );
 }
