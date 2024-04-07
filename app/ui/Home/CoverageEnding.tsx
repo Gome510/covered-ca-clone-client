@@ -3,8 +3,10 @@ import Image from "next/image";
 function CoverageEnding() {
   return (
     <div className="h-[700px] px-4">
-      <img
+      <Image
         className="m-auto mt-16"
+        width={165}
+        height={152}
         src="/assets/images/MediCalCalendar-1.svg"
         alt="Medi-Cal Logo and Calendar"
       />
@@ -15,7 +17,7 @@ function CoverageEnding() {
 
       <p className="mt-6 px-4">
         <strong>If you got a notice</strong> saying you have a new plan through
-        Covered California after losing Medi-Cal, you'll need to complete
+        Covered California after losing Medi-Cal, you&apos;ll need to complete
         enrollment. You can, change or cancel this plan now.
       </p>
 
