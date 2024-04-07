@@ -1,6 +1,7 @@
 import React from "react";
-import ApplyNow from "./ui/ApplyNow";
-import CoverageEnding from "./ui/CoverageEnding";
+import ApplyNow from "./ui/Home/ApplyNow";
+import CoverageEnding from "./ui/Home/CoverageEnding";
+import CoverageOptions from "./ui/Home/CoverageOptions";
 export default function HomePage() {
   return (
     <>
@@ -8,6 +9,7 @@ export default function HomePage() {
       <div className=" bg-primary h-16 shadow-md"></div>
 
       <CoverageEnding />
+      <CoverageOptions />
     </>
   );
 }
