@@ -3,7 +3,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Image from "next/image";
 function Navbar() {
   return (
-    <nav className=" flex items-center justify-between px-4 py-2 bg-primary drop-shadow-lg text-white">
+    <nav className=" sticky top-0 z-10 flex items-center justify-between px-4 py-2 bg-primary drop-shadow-lg text-white">
       <button
         className="w-36 text-left focus:outline-2 focus:outline rounded-full"
         aria-label="Toggle Navigation"
