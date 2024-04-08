@@ -1,27 +1,64 @@
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import Image from "next/image";
 function CoverageOptions() {
   return (
-    <div
+    <section
       id="coverage-options"
-      className="flex flex-col items-center bg-gradient-to-b from-primary to-denim"
+      className="flex flex-col items-center bg-gradient-to-b from-primary to-denim shadow-md"
     >
-      <h2 className="text-3xl text-white font-bold mt-12">
-        Our Coverage Options
-      </h2>
-      <p className="text-lg text-center text-white mx-8 mt-2">
+      <h2 className=" text-white mt-12">Our Coverage Options</h2>
+      <p className=" text-center text-white mx-8 mt-2">
         Health, dental and vision care - all in one place
       </p>
       <div className="w-full flex items-center justify-between">
         <ArrowBackIosIcon htmlColor="white" />
-        <div className="h-80 w-60 bg-white rounded-xl">option carousel</div>
+        <div className=" w-64 bg-orange-800 rounded-xl py-4 mt-4 mb-10">
+          <div className="bg-white h-full px-4 ">
+            <div className="flex justify-between pt-4 font-bold mb-4">
+              <div>
+                <p>Covered California</p>
+                <h3>Bronze</h3>
+              </div>
+              <Image
+                src={"/assets/images/CoverageOptions/stethoscope-icon.svg"}
+                className="pt-3"
+                width={40}
+                height={40}
+                alt="Icon of Stethoscope"
+              />
+            </div>
+            <div className="flex justify-between items-center px-1">
+              <div className="text-xs">
+                <p>Premiums</p>
+                <strong className="text-primary block mb-2">LOWEST</strong>
+                <p>Out-of-Pocket</p>
+                <strong className="text-primary">HIGHEST</strong>
+              </div>
+              <Image
+                src={"/assets/images/CoverageOptions/bronze.svg"}
+                height={120}
+                width={111.5}
+                alt="Pie chart with '60% coverage' inside"
+              />
+            </div>
+            <p className="text-xs mt-8">
+              Lower monthly premium if you qualify for financial help.
+            </p>
+            <p className="text-xs text-primary h-6">
+              <a href="https://www.coveredca.com/health/coverage-levels/bronze/">
+                Learn More 🡢
+              </a>
+            </p>
+          </div>
+        </div>
         <ArrowForwardIosIcon htmlColor="white" />
       </div>
       <div>
         <button type="button">Apply</button>
         <button type="button">Change Plan</button>
       </div>
-    </div>
+    </section>
   );
 }
 export default CoverageOptions;
