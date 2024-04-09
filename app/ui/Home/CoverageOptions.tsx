@@ -54,9 +54,19 @@ function CoverageOptions() {
         </div>
         <ArrowForwardIosIcon htmlColor="white" />
       </div>
-      <div>
-        <button type="button">Apply</button>
-        <button type="button">Change Plan</button>
+      <div className="flex justify-between w-full px-8 mb-12 gap-12">
+        <button
+          className="bg-white rounded-full h-8 w-1/2 font-bold text-primary"
+          type="button"
+        >
+          Apply
+        </button>
+        <button
+          className="bg-white rounded-full h-8 w-1/2 font-bold text-primary"
+          type="button"
+        >
+          Change Plan
+        </button>
       </div>
     </section>
   );
