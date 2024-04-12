@@ -1,6 +1,6 @@
 function ReportChange() {
   return (
-    <div className="flex flex-col items-center gap-8">
+    <div className="flex flex-col items-center gap-8 mb-16">
       <h2 className="mt-12">Need to Report a Change?</h2>
       <p className="text-center px-8">
         Not sure? Watch the video below or{" "}
@@ -19,16 +19,18 @@ function ReportChange() {
         allowFullScreen
       ></iframe>
 
-      <a
-        className=" bg-primary text-white text-lg font-semibold h-16 w-44 rounded-lg flex items-center justify-center"
-        href=""
-      >
-        Report Online
-      </a>
+      <div className="flex flex-col items-center gap-2 ">
+        <a
+          className=" bg-primary text-white text-lg font-semibold h-16 w-44 rounded-lg flex items-center justify-center"
+          href=""
+        >
+          Report Online
+        </a>
 
-      <p>or</p>
+        <p className="text-lg">or</p>
 
-      <p className="">Call: (800) 300-1506</p>
+        <p className="text-primary font-bold text-2xl">Call: (800) 300-1506</p>
+      </div>
     </div>
   );
 }
