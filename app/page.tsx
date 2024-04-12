@@ -3,6 +3,7 @@ import ApplyNow from "./ui/Home/ApplyNow";
 import CoverageEnding from "./ui/Home/CoverageEnding";
 import CoverageOptions from "./ui/Home/CoverageOptions";
 import ReportChange from "./ui/Home/ReportChange";
+import Deadlines from "./ui/Home/Deadlines";
 export default function HomePage() {
   return (
     <>
@@ -12,6 +13,7 @@ export default function HomePage() {
       <CoverageEnding />
       <CoverageOptions />
       <ReportChange />
+      <Deadlines />
     </>
   );
 }
