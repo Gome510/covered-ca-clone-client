@@ -3,21 +3,50 @@ import Logo from "../../assets/CCA-Logo-mobile.svg";
 
 function Deadlines() {
   return (
-    <div className="bg-dark-slate-gray px-4">
+    <article className="bg-dark-slate-gray px-4">
       <div className="flex justify-between my-4">
         <p className="text-white">Coming Soon</p>
         <p className="text-gold">
           <a href="">see all</a>
         </p>
       </div>
-      <div className="flex bg-white">
-        <Logo style={{ fill: "red" }} />
-        <div className="flex flex-col">
-          <p>Feb. 29</p>
-          <p>Deadline for Coverage Starting March 1</p>
+      <section className="flex bg-white rounded-lg mb-8">
+        <div className="flex justify-center items-center bg-lavender min-w-28 rounded-l-lg h-28">
+          <Logo className="text-primary" width={55} height={70} />
         </div>
-      </div>
-    </div>
+        <div className="flex flex-col p-4 font-bold">
+          <p>Feb. 29</p>
+          <h3>Deadline for Coverage Starting March 1</h3>
+        </div>
+      </section>
+      <section className="rounded-lg">
+        <div className="text-white text-center rounded-t-lg bg-gradient-to-b from-dark-slate-gray to-primary">
+          <h2>Never miss a deadline.</h2>
+          <p>
+            Sign up for email updates to get <br />
+            deadline reminders and other
+            <br />
+            important information
+          </p>
+        </div>
+
+        <form className="bg-white flex flex-col rounded-b-lg" action="">
+          <label htmlFor="first-name">First Name</label>
+          <input type="text" id="first-name" placeholder="e.g. John" />
+          <label htmlFor="zip-code"></label>
+          <input type="number" id="zip-code" placeholder="12345" />
+          <label htmlFor="email">Email*</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="youremail@example.com"
+            required
+          />
+          <p>* required</p>
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+    </article>
   );
 }
 export default Deadlines;
