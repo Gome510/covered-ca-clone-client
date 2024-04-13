@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Logo from "../../assets/CCA-Logo-mobile.svg";
 
 function Deadlines() {
   return (
@@ -10,12 +11,7 @@ function Deadlines() {
         </p>
       </div>
       <div className="flex bg-white">
-        <Image
-          src={"/assets/images/CCA-Logo-mobile.svg"}
-          height={50}
-          width={50}
-          alt="Covered California Logo"
-        />
+        <Logo style={{ fill: "red" }} />
         <div className="flex flex-col">
           <p>Feb. 29</p>
           <p>Deadline for Coverage Starting March 1</p>
