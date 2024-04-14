@@ -4,10 +4,10 @@ import "./deadlines.css";
 
 function Deadlines() {
   return (
-    <article className="bg-dark-slate-gray px-4 pt-2">
+    <article className="bg-dark-slate-gray p-4 pt-2">
       <div className="flex justify-between my-4 font-bold">
         <p className="text-white">Coming Soon</p>
-        <p className="text-gold">
+        <p className="text-gold underline">
           <a href="">see all</a>
         </p>
       </div>

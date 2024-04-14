@@ -1,6 +1,6 @@
 function ReportChange() {
   return (
-    <div className="flex flex-col items-center gap-8 mb-16">
+    <div className="flex flex-col items-center gap-8 pb-16">
       <h2 className="mt-12">Need to Report a Change?</h2>
       <p className="text-center px-8">
         Not sure? Watch the video below or{" "}
