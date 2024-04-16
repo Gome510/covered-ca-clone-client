@@ -20,6 +20,7 @@ const config: Config = {
         "pacific-blue": "#17B8CA",
         input: "#F6F9FF",
         "dark-slate-gray": "#2A3653",
+        "slate-gray": "#414f70",
         lavender: "#dfe6f4",
       },
     },
