@@ -4,6 +4,7 @@ import CoverageEnding from "./ui/Home/CoverageEnding";
 import CoverageOptions from "./ui/Home/CoverageOptions";
 import ReportChange from "./ui/Home/ReportChange";
 import Deadlines from "./ui/Home/Deadlines";
+import Footer from "./ui/Footer/Footer";
 export default function HomePage() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function HomePage() {
       <CoverageOptions />
       <ReportChange />
       <Deadlines />
+      <Footer />
     </>
   );
 }
