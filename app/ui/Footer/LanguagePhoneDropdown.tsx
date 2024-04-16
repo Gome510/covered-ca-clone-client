@@ -1,5 +1,7 @@
 "use client";
 import { useState } from "react";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 export default function LanguagesPhoneDropdown() {
   const [langCollapse, setLangCollapse] = useState(true);
   function handleLangDropdownClick() {
@@ -8,7 +10,8 @@ export default function LanguagesPhoneDropdown() {
   return (
     <>
       <button type="button" onClick={handleLangDropdownClick}>
-        Other Languages
+        Other Languages{" "}
+        {langCollapse ? <KeyboardArrowDownIcon /> : <KeyboardArrowUpIcon />}
       </button>
       <table className={`m-auto text-left ${langCollapse ? "hidden" : "show"}`}>
         <tbody>
@@ -20,6 +23,11 @@ export default function LanguagesPhoneDropdown() {
           <tr>
             <td>Cantonese</td>
             <td>粵語</td>
+            <td>(800) 300-1533</td>
+          </tr>
+          <tr>
+            <td>Mandarin</td>
+            <td>普通话</td>
             <td>(800) 300-1533</td>
           </tr>
           <tr>

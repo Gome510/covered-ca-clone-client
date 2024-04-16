@@ -1,31 +1,70 @@
 import LanguagesPhoneDropdown from "./LanguagePhoneDropdown";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+
 import "./footer.css";
+import Image from "next/image";
 function Footer() {
   return (
     <div className="p-4 bg-gradient-to-b from-slate-gray to-dark-slate-gray text-white">
       <section className="text-center">
-        <h2 className="text-[1.25rem]">Contact Us</h2>
-        <h3 className="text-[1.75rem]">(800) 300-1506</h3>
+        <h2 className="text-[1.25rem] mt-8">Contact Us</h2>
+        <h3 className="text-[1.75rem] mb-4">(800) 300-1506</h3>
 
         <LanguagesPhoneDropdown />
 
-        <h4>Service Center Hours</h4>
+        <h4 className="mt-6">Service Center Hours</h4>
         <p>
           Monday to Friday: 8 a.m. to 6 p.m. <br />
           Saturday and Sunday: Closed
         </p>
 
-        <h4>New Customers</h4>
-        <a href="">Get a call back from a licensed agent</a>
+        <h4 className="mt-20">New Customers</h4>
+        <a className="font-bold mb-4 block" href="">
+          Get a call back from a licensed agent.{" "}
+          <ArrowForwardIcon fontSize="inherit" />
+        </a>
 
         <hr />
       </section>
-      <section className="flex flex-col items-center">
+      <section className="flex flex-col items-center ">
         <h4>Follow Us</h4>
-        <div>Icons</div>
+        <div className="flex items-center gap-6 mt-6">
+          <a href="">
+            <Image
+              src="/assets/images/Footer/f_logo_white.png"
+              width={27}
+              height={27}
+              alt="facebook logo"
+            />
+          </a>
+          <a href="">
+            <Image
+              src="/assets/images/Footer/twitter_logo_white.png"
+              width={27}
+              height={27}
+              alt="twitter logo"
+            />
+          </a>
+          <a href="">
+            <Image
+              src="/assets/images/Footer/yt_logo_white.png"
+              width={85}
+              height={27}
+              alt="youtube logo"
+            />
+          </a>
+          <a href="">
+            <Image
+              src="/assets/images/Footer/insta_logo_white.png"
+              width={27}
+              height={27}
+              alt="Instagram logo"
+            />
+          </a>
+        </div>
       </section>
       <hr />
-      <section>
+      <section className="flex gap-8">
         <div>
           <h4>Shop</h4>
           <hr />
