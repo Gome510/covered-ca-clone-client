@@ -1,6 +1,7 @@
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import Image from "next/image";
+import Link from "next/link";
 function CoverageOptions() {
   return (
     <section
@@ -13,7 +14,7 @@ function CoverageOptions() {
       </p>
       <div className="w-full flex items-center justify-between">
         <ArrowBackIosIcon htmlColor="white" />
-        <div className=" w-64 bg-orange-800 rounded-xl py-4 mt-4 mb-10">
+        <div className=" w-64 bg-bronze rounded-xl py-4 mt-4 mb-10">
           <div className="bg-white h-full px-4 ">
             <div className="flex justify-between pt-4 font-bold mb-4">
               <div>
@@ -45,11 +46,15 @@ function CoverageOptions() {
             <p className="text-xs mt-8">
               Lower monthly premium if you qualify for financial help.
             </p>
-            <p className="text-xs text-primary h-6">
-              <a href="https://www.coveredca.com/health/coverage-levels/bronze/">
+
+            <div className="flex justify-center">
+              <Link
+                href={"/bronze"}
+                className=" bg-primary font-bold text-white text-center rounded-full py-1 my-4 w-40"
+              >
                 Learn More 🡢
-              </a>
-            </p>
+              </Link>
+            </div>
           </div>
         </div>
         <ArrowForwardIosIcon htmlColor="white" />

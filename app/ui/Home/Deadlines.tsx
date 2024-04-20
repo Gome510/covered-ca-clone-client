@@ -12,7 +12,7 @@ function Deadlines() {
         </p>
       </div>
       <section className="flex bg-white rounded-lg mb-8">
-        <div className="flex justify-center items-center bg-lavender min-w-28 rounded-l-lg h-28">
+        <div className="flex justify-center items-center bg-lavender min-w-28 rounded-l-lg min-h-28">
           <Logo className="text-primary" width={55} height={70} />
         </div>
         <div className="flex flex-col p-4 font-bold">

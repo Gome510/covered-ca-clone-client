@@ -22,6 +22,8 @@ const config: Config = {
         "dark-slate-gray": "#2A3653",
         "slate-gray": "#414f70",
         lavender: "#dfe6f4",
+        bronze: "#a12f00",
+        orange: "#cf5c00",
       },
     },
   },
