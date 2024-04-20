@@ -50,6 +50,7 @@ function ApplyNow() {
         height={200}
         src="/assets/images/SEP-24-hero-small.webp"
         alt="Smiling mother carrying young son on her shoulders"
+        loading="eager"
       />
     </div>
   );
