@@ -50,7 +50,7 @@ function BronzePlan() {
           </h3>
           <p className=" mb-2">
             The only plan type you can combine with an HSA to pay for certain
-            services tax-free. You'll have to pay the full cost for
+            services tax-free. You&apos;ll have to pay the full cost for
             non-preventive services until you meet your deductible.
           </p>
 
