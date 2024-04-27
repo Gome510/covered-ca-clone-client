@@ -4,7 +4,7 @@ import ForwardIcon from "@mui/icons-material/Forward";
 import Image from "next/image";
 function ApplyNow() {
   return (
-    <div className="p-4 pt-4 h-[850px] relative text-black">
+    <div className="p-4 pt-4 h-[850px] relative overflow-hidden text-black">
       <div className="flex justify-between">
         <button className="bg-primary text-white h-10 w-24 rounded-md font-bold shadow-md">
           <ForumIcon /> Chat
