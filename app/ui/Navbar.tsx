@@ -17,6 +17,7 @@ function Navbar() {
           height={40}
           src="/assets/images/CCA-Logo-mobile.svg"
           alt="Covered California Logo"
+          loading="eager"
         />
       </Link>
       <div className="w-36 flex justify-end">
