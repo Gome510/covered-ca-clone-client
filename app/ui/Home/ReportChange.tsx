@@ -1,3 +1,5 @@
+import { Suspense } from "react";
+import VideoSkeleton from "../components/VideoSkeleton";
 function ReportChange() {
   return (
     <div className="flex flex-col items-center gap-8 pb-16">
@@ -8,17 +10,28 @@ function ReportChange() {
           click here to learn more.
         </a>
       </p>
-      <iframe
-        className="rounded-xl"
-        width="364"
-        height="208"
-        src="https://www.youtube.com/embed/22bCxigeJEE?si=0VCEuEP1NDDRQRWr"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        allowFullScreen
-        loading="lazy"
-      ></iframe>
+      <Suspense
+        fallback={
+          <VideoSkeleton
+            src="/assets/images/ReportChange/mqdefault.jpg"
+            width={364}
+            height={208}
+            alt="Reporting Changes to Covered California"
+          />
+        }
+      >
+        <iframe
+          className="rounded-xl"
+          width="364"
+          height="208"
+          src="https://www.youtube.com/embed/22bCxigeJEE?si=0VCEuEP1NDDRQRWr"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+          loading="lazy"
+        ></iframe>
+      </Suspense>
 
       <div className="flex flex-col items-center gap-2 ">
         <a
