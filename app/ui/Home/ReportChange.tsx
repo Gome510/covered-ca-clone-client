@@ -12,11 +12,12 @@ function ReportChange() {
         className="rounded-xl"
         width="364"
         height="208"
-        src="https://www.youtube.com/embed/-d6qoR5N7GM?si=EYOMW8zfiXru1icY"
+        src="https://www.youtube.com/embed/22bCxigeJEE?si=0VCEuEP1NDDRQRWr"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
+        loading="lazy"
       ></iframe>
 
       <div className="flex flex-col items-center gap-2 ">
