@@ -45,10 +45,10 @@ function ApplyNow() {
       </button>
 
       <Image
-        className="absolute -z-10  bottom-0 right-0"
-        width={400}
+        className="absolute -z-10  -bottom-10 -right-5"
+        width={340}
         height={200}
-        src="/assets/images/SEP-24-hero-small.webp"
+        src="/assets/images/ApplyNow/doctor-patient.svg"
         alt="Smiling mother carrying young son on her shoulders"
         loading="eager"
       />
