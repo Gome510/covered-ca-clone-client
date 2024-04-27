@@ -10,16 +10,7 @@ function ReportChange() {
           click here to learn more.
         </a>
       </p>
-      <Suspense
-        fallback={
-          <VideoSkeleton
-            src="/assets/images/ReportChange/mqdefault.jpg"
-            width={364}
-            height={208}
-            alt="Reporting Changes to Covered California"
-          />
-        }
-      >
+      <Suspense fallback={<VideoSkeleton />}>
         <iframe
           className="rounded-xl"
           width="364"
