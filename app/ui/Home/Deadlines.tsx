@@ -8,8 +8,10 @@ function Deadlines() {
       <div className="mx-auto max-w-4xl">
         <div className="flex justify-between my-4 font-bold">
           <p className="text-white">Coming Soon</p>
-          <p className="text-gold underline">
-            <a href="">see all</a>
+          <p>
+            <a className="text-gold underline" href="">
+              see all
+            </a>
           </p>
         </div>
         <section className="flex bg-white rounded-lg mb-8">
