@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 function CoverageOptions() {
   return (
-    <section
+    <article
       id="coverage-options"
       className="flex flex-col items-center bg-gradient-to-b from-primary to-denim shadow-md"
     >
@@ -73,7 +73,7 @@ function CoverageOptions() {
           Change Plan
         </button>
       </div>
-    </section>
+    </article>
   );
 }
 export default CoverageOptions;

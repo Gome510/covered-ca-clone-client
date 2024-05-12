@@ -1,7 +1,7 @@
 import "./policyfooter.css";
 function PolicyFooter() {
   return (
-    <section className="px-4 text-xs">
+    <article className="px-4 text-xs">
       <div className="flex flex-col items-center  gap-2 mt-8">
         <a href="">Accessibility and Nondiscrimination</a>
         <a href="">Terms of Use</a>
@@ -74,7 +74,7 @@ function PolicyFooter() {
       <p className="mt-4 text-center mb-8">
         Copyright © 2024 Covered California
       </p>
-    </section>
+    </article>
   );
 }
 export default PolicyFooter;

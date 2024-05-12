@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import VideoSkeleton from "../components/VideoSkeleton";
 function ReportChange() {
   return (
-    <div className="flex flex-col items-center gap-8 pb-16">
+    <article className="flex flex-col items-center gap-8 pb-16">
       <h2 className="mt-12">Need to Report a Change?</h2>
       <p className="text-center px-8">
         Not sure? Watch the video below or{" "}
@@ -36,7 +36,7 @@ function ReportChange() {
 
         <p className="text-primary font-bold text-2xl">Call: (800) 300-1506</p>
       </div>
-    </div>
+    </article>
   );
 }
 export default ReportChange;

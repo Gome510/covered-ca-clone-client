@@ -5,7 +5,7 @@ import "./footer.css";
 import Image from "next/image";
 function Footer() {
   return (
-    <div className="p-4 bg-gradient-to-b from-slate-gray to-dark-slate-gray text-white">
+    <article className="p-4 bg-gradient-to-b from-slate-gray to-dark-slate-gray text-white">
       <section className="text-center">
         <h2 className="text-[1.25rem] mt-8">Contact Us</h2>
         <h3 className="text-[1.75rem] mb-4">(800) 300-1506</h3>
@@ -103,7 +103,7 @@ function Footer() {
           </ul>
         </div>
       </section>
-    </div>
+    </article>
   );
 }
 export default Footer;

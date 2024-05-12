@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function CoverageEnding() {
   return (
-    <div className="h-[700px] px-4">
+    <article className="h-[700px] px-4">
       <Image
         className="m-auto mt-16"
         width={165}
@@ -49,7 +49,7 @@ function CoverageEnding() {
           </p>
         </div>
       </div>
-    </div>
+    </article>
   );
 }
 export default CoverageEnding;
