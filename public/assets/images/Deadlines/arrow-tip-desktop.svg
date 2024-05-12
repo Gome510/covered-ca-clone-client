@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="95px" height="213px" viewBox="0 0 95 213" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-tip</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation/Footer/Standard" transform="translate(-585.000000, -22.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(45.000000, 22.000000)">
+                <path d="M635,0 L635,213 L540,213 L582.712745,156.374986 L615.652749,112.704681 C618.434152,109.017899 618.434152,103.982101 615.652749,100.295319 L582.712745,56.6250139 L540,0 L635,0 Z" id="arrow-tip"></path>
+            </g>
+        </g>
+    </g>
+</svg>

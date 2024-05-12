@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function CoverageEnding() {
   return (
-    <article className="h-[700px] px-4">
+    <article className="h-[700px] px-4 mx-auto max-w-4xl">
       <Image
         className="m-auto mt-16"
         width={165}
