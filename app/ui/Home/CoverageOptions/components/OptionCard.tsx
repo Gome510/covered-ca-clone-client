@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { capitalizeFirstLetter } from "@/utils";
 
-const colors = {
+const colors: { [key: string]: string } = {
   bronze: "bg-bronze",
   silver: "bg-silver",
   gold: "bg-gold",
