@@ -2,6 +2,7 @@ import ForumIcon from "@mui/icons-material/Forum";
 import PublicIcon from "@mui/icons-material/Public";
 import ForwardIcon from "@mui/icons-material/Forward";
 import Image from "next/image";
+import Link from "next/link";
 function ApplyNow() {
   return (
     <article className="p-4 pt-4 h-[850px] relative overflow-hidden text-black mx-auto max-w-4xl">
@@ -23,26 +24,35 @@ function ApplyNow() {
       </h1>
       <p className="mt-4 text-xl">Check your eligibility in 5 minutes.</p>
 
-      <button className="flex items-center bg-denim text-white p-4 px-6 mt-10 rounded-lg font-bold text-xl shadow-md">
+      <Link
+        className="flex items-center bg-denim text-white p-4 px-6 mt-10 w-52 rounded-lg font-bold text-xl shadow-md"
+        href={"/apply"}
+      >
         Apply now
         <div className="ml-4">
           <ForwardIcon />
         </div>
-      </button>
+      </Link>
 
-      <button className="border-black border-2 flex items-center  h-10 rounded-md px-4 shadow-md font-bold mt-16">
+      <Link
+        className="border-black border-2 flex items-center w-44 h-10 rounded-md px-4 shadow-md font-bold mt-16"
+        href={"/apply"}
+      >
         Aplica ahora
         <div className="ml-4">
           <ForwardIcon />
         </div>
-      </button>
+      </Link>
 
-      <button className="border-black border-2 flex items-center  h-10 rounded-md px-4 shadow-md font-bold mt-8 ">
+      <Link
+        className="border-black border-2 flex items-center w-40 h-10 rounded-md px-4 shadow-md font-bold mt-8 "
+        href={"/apply"}
+      >
         立刻申請
         <div className="ml-4">
           <ForwardIcon />
         </div>
-      </button>
+      </Link>
 
       <Image
         className="absolute -z-10  -bottom-10 -right-5"

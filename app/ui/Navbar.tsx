@@ -21,9 +21,12 @@ function Navbar() {
         />
       </Link>
       <div className="w-36 flex justify-end">
-        <button className="flex items-center border border-white rounded-full px-4 py-0.5 font-bold text-sm">
+        <Link
+          className="flex items-center border border-white rounded-full px-4 py-0.5 font-bold text-sm"
+          href={"/login"}
+        >
           LOGIN
-        </button>
+        </Link>
       </div>
     </nav>
   );

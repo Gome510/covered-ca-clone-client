@@ -1,0 +1,30 @@
+[
+  {
+    "name": "bronze",
+    "description": "Lower monthly premium if you qualify for financial help.",
+    "coverage": "60",
+    "premiums": "LOWEST",
+    "outOfPocket": "HIGHEST"
+  },
+  {
+    "name": "silver",
+    "description": "Lower monthly premium if you qualify for financial help.",
+    "coverage": "60",
+    "premiums": "LOWEST",
+    "outOfPocket": "HIGHEST"
+  },
+  {
+    "name": "gold",
+    "description": "Lower monthly premium if you qualify for financial help, and lower deductibles and copays for eligible people.",
+    "coverage": "80",
+    "premiums": "HIGHER",
+    "outOfPocket": "LOWER"
+  },
+  {
+    "name": "platinum",
+    "description": "Lower monthly premium if you qualify for financial help.",
+    "coverage": "60",
+    "premiums": "HIGHEST",
+    "outOfPocket": "LOWEST"
+  }
+]
