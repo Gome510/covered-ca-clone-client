@@ -1,11 +1,12 @@
 "use client";
 import OptionCard from "./components/OptionCard";
-import config from "@/tailwind.config";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
-import "swiper/css";
+import { Navigation, Pagination, A11y, Keyboard } from "swiper/modules";
+import "swiper/css/bundle";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "swiper/css/keyboard";
+import "swiper/css/a11y";
 
 import planData from "../../../data/plans.json";
 
@@ -24,8 +25,9 @@ function CoverageOptions() {
           <Swiper
             navigation
             pagination={{ type: "bullets" }}
+            keyboard
             slidesPerView={1}
-            modules={[Navigation, Pagination]}
+            modules={[Navigation, Pagination, A11y, Keyboard]}
           >
             {planData.map((plan) => (
               <SwiperSlide key={plan.name}>
