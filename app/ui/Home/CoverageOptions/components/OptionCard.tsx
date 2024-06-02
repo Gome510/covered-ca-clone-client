@@ -37,6 +37,7 @@ function OptionCard({
             className="pt-3"
             width={40}
             height={40}
+            loading="lazy"
             alt="Icon of Stethoscope"
           />
         </div>
