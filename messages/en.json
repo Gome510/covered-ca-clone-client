@@ -1,0 +1,104 @@
+{
+  "home": {
+    "ApplyNow": {
+      "title": "Get affordable healthcare.",
+      "subtitle": "Check your eligibility in 5 minutes."
+    },
+    "CoverageEnding": {
+      "title": "Is your Medi-Cal coverage ending?",
+      "subtitle": "If you got a notice saying you have a new plan through Covered California after losing Medi-Cal, you'll need to complete enrollment. You can, change or cancel this plan now.",
+      "continue": "Continue",
+      "affected": "Will you be affected by the upcoming changes to Medi-Cal?",
+      "learnMore": "Learn More"
+    },
+    "CoverageOptions": {
+      "title": "Our Coverage Options",
+      "subtitle": "Health, dental and vision care - all in one place",
+      "apply": "Apply",
+      "changePlan": "Change Plan"
+    },
+    "Reportchange": {
+      "title": "Need to Report a Change?",
+      "subtitle": "Not sure? Watch the video below or ",
+      "subtitleLink": "click here to learn more.",
+      "reportOnline": "Report Online",
+      "call": "Call",
+      "or": "or"
+    },
+    "Deadlines": {
+      "comingSoon": "Coming Soon",
+      "seeAll": "see all",
+      "title": "Never miss a deadline",
+      "subtitle": "Sign up for email updates to get deadline reminders and other important information",
+      "firstName": "First Name",
+      "placeholderFirstName": "e.g. John",
+      "zipCode": "Zip Code",
+      "placeholderZipCode": "12345",
+      "email": "Email*",
+      "placeholderEmail": "youremail@example.com",
+      "required": "* required",
+      "subscribe": "Subscribe",
+      "deadlineTitle": "Deadline for Coverage Starting March 1.",
+      "deadlineDate": "Feb. 29"
+    }
+  },
+  "Footer": {
+    "contactUs": {
+      "title": "Contact Us",
+      "phoneNumber": "(800) 300-1506",
+      "serviceCenterHours": {
+        "title": "Service Center Hours",
+        "weekdays": "Monday to Friday: 8 a.m. to 6 p.m.",
+        "weekends": "Saturday and Sunday: Closed"
+      }
+    },
+    "otherLanguages": "Other Languages",
+    "newCustomers": {
+      "title": "New Customers",
+      "description": "Get a call back from a licensed agent."
+    },
+    "followUs": "Follow Us",
+    "shop": {
+      "title": "Shop",
+      "shopAndCompare": "Shop and Compare",
+      "findAnEnroller": "Find an Enroller",
+      "apply": "Apply"
+    },
+    "myAccount": {
+      "title": "My Account",
+      "signIn": "Sign In",
+      "createAnAccount": "Create an Account"
+    },
+    "business": {
+      "title": "Covered California for Small Business"
+    },
+    "enrollmentPartnersAndAgents": {
+      "title": "Enrollment Partners and Agents"
+    },
+    "newsroom": {
+      "title": "Newsroom"
+    },
+    "careers": {
+      "title": "Careers"
+    },
+    "registerToVote": {
+      "title": "Register to Vote"
+    },
+    "learn": {
+      "title": "Learn",
+      "learningCenter": "Learning Center"
+    },
+    "support": {
+      "title": "Support",
+      "health": "Health",
+      "dental": "Dental",
+      "vision": "Vision"
+    },
+    "members": {
+      "title": "Members",
+      "whatIsCoveredCalifornia": "What is Covered California?",
+      "americanIndiansAndAlaskaNatives": "American Indians and Alaska Natives",
+      "healthCareBlog": "Health Care Blog"
+    }
+  }
+}

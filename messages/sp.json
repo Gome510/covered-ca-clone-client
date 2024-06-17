@@ -1,0 +1,104 @@
+{
+  "home": {
+    "ApplyNow": {
+      "title": "Obtén atención médica asequible.",
+      "subtitle": "Verifica tu elegibilidad en 5 minutos."
+    },
+    "CoverageEnding": {
+      "title": "¿Está por terminarse tu cobertura de Medi-Cal?",
+      "subtitle": "Si recibiste un aviso diciendo que tienes un nuevo plan a través de Covered California después de perder Medi-Cal, necesitarás completar la inscripción. Puedes cambiar o cancelar este plan ahora.",
+      "continue": "Continuar",
+      "affected": "¿Te verás afectado por los próximos cambios en Medi-Cal?",
+      "learnMore": "Más información"
+    },
+    "CoverageOptions": {
+      "title": "Nuestras opciones de cobertura",
+      "subtitle": "Atención médica, dental y de visión, todo en un solo lugar",
+      "apply": "Aplicar",
+      "changePlan": "Cambiar plan"
+    },
+    "Reportchange": {
+      "title": "¿Necesitas reportar un cambio?",
+      "subtitle": "¿No estás seguro? Mira el video a continuación o ",
+      "subtitleLink": "haz clic aquí para obtener más información.",
+      "reportOnline": "Reportar en línea",
+      "call": "Llamar",
+      "or": "o"
+    },
+    "Deadlines": {
+      "comingSoon": "Próximamente",
+      "seeAll": "ver todos",
+      "title": "Nunca te pierdas un plazo",
+      "subtitle": "Suscríbete para recibir recordatorios de plazos e información importante por correo electrónico",
+      "firstName": "Nombre",
+      "placeholderFirstName": "por ejemplo, Juan",
+      "zipCode": "Código postal",
+      "placeholderZipCode": "12345",
+      "email": "Correo electrónico*",
+      "placeholderEmail": "tucorreo@example.com",
+      "required": "* obligatorio",
+      "subscribe": "Suscribirse",
+      "deadlineTitle": "Plazo para la cobertura que comienza el 1 de marzo.",
+      "deadlineDate": "29 de febrero"
+    }
+  },
+  "Footer": {
+    "contactUs": {
+      "title": "Contáctanos",
+      "phoneNumber": "(800) 300-1506",
+      "serviceCenterHours": {
+        "title": "Horario del centro de servicio",
+        "weekdays": "Lunes a viernes: 8 a.m. a 6 p.m.",
+        "weekends": "Sábado y domingo: Cerrado"
+      }
+    },
+    "otherLanguages": "Otros Idiomas",
+    "newCustomers": {
+      "title": "Nuevos clientes",
+      "description": "Recibe una llamada de vuelta de un agente con licencia."
+    },
+    "followUs": "Síguenos",
+    "shop": {
+      "title": "Comprar",
+      "shopAndCompare": "Comprar y comparar",
+      "findAnEnroller": "Encontrar un inscriptor",
+      "apply": "Aplicar"
+    },
+    "myAccount": {
+      "title": "Mi cuenta",
+      "signIn": "Iniciar sesión",
+      "createAnAccount": "Crear una cuenta"
+    },
+    "business": {
+      "title": "Covered California para pequeñas empresas"
+    },
+    "enrollmentPartnersAndAgents": {
+      "title": "Socios y agentes de inscripción"
+    },
+    "newsroom": {
+      "title": "Sala de prensa"
+    },
+    "careers": {
+      "title": "Carreras"
+    },
+    "registerToVote": {
+      "title": "Registrarse para votar"
+    },
+    "learn": {
+      "title": "Aprender",
+      "learningCenter": "Centro de aprendizaje"
+    },
+    "support": {
+      "title": "Soporte",
+      "health": "Salud",
+      "dental": "Dental",
+      "vision": "Visión"
+    },
+    "members": {
+      "title": "Miembros",
+      "whatIsCoveredCalifornia": "¿Qué es Covered California?",
+      "americanIndiansAndAlaskaNatives": "Indígenas americanos y nativos de Alaska",
+      "healthCareBlog": "Blog de atención médica"
+    }
+  }
+}

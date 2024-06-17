@@ -8,19 +8,20 @@ import "swiper/css/pagination";
 import "swiper/css/keyboard";
 import "swiper/css/a11y";
 
+import { useTranslations } from "next-intl";
 import planData from "../../../data/plans.json";
 
 function CoverageOptions() {
+  const t = useTranslations("home.CoverageOptions");
+
   return (
     <article
       id="coverage-options"
       className="bg-gradient-to-b from-primary to-denim shadow-md"
     >
       <div className="flex flex-col items-center mx-auto max-w-4xl">
-        <h2 className=" text-white mt-12">Our Coverage Options</h2>
-        <p className=" text-center text-white mx-8 mt-2">
-          Health, dental and vision care - all in one place
-        </p>
+        <h2 className="text-white mt-12">{t("title")}</h2>
+        <p className="text-center text-white mx-8 mt-2">{t("subtitle")}</p>
         <div className="w-full">
           <Swiper
             navigation
@@ -41,23 +42,18 @@ function CoverageOptions() {
             className="bg-white rounded-full h-8 w-1/2 font-bold text-primary"
             type="button"
           >
-            Apply
+            {t("apply")}
           </button>
           <button
             className="bg-white rounded-full h-8 w-1/2 font-bold text-primary"
             type="button"
           >
-            Change Plan
+            {t("changePlan")}
           </button>
         </div>
       </div>
     </article>
   );
 }
-export default CoverageOptions;
 
-{
-  /* <ArrowBackIosIcon htmlColor="white" />
-          <OptionCard />
-          <ArrowForwardIosIcon htmlColor="white" /> */
-}
+export default CoverageOptions;

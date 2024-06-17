@@ -3,7 +3,11 @@ import PublicIcon from "@mui/icons-material/Public";
 import ForwardIcon from "@mui/icons-material/Forward";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
+
 function ApplyNow() {
+  const t = useTranslations("home.ApplyNow");
+
   return (
     <article className="p-4 pt-4 h-[850px] relative overflow-hidden text-black mx-auto max-w-4xl">
       <div className="flex justify-between">
@@ -19,10 +23,8 @@ function ApplyNow() {
         </button>
       </div>
 
-      <h1 className=" text-5xl leading-tight font-bold mt-14">
-        Get affordable healthcare.
-      </h1>
-      <p className="mt-4 text-xl">Check your eligibility in 5 minutes.</p>
+      <h1 className=" text-5xl leading-tight font-bold mt-14">{t("title")}</h1>
+      <p className="mt-4 text-xl">{t("subtitle")}</p>
 
       <Link
         className="flex items-center bg-denim text-white p-4 px-6 mt-10 w-52 rounded-lg font-bold text-xl shadow-md"

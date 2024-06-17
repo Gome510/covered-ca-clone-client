@@ -1,35 +1,41 @@
 import LanguagesPhoneDropdown from "./LanguagePhoneDropdown";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-import "./footer.css";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
+import "./footer.css";
+
 function Footer() {
+  const t = useTranslations("Footer");
+
   return (
     <article className="p-4 bg-gradient-to-b from-slate-gray to-dark-slate-gray text-white">
       <div className="mx-auto max-w-4xl md:flex md:gap-8">
         <div>
           <section className="text-center">
-            <h2 className="text-[1.25rem] mt-8">Contact Us</h2>
-            <h3 className="text-[1.75rem] mb-4">(800) 300-1506</h3>
+            <h2 className="text-[1.25rem] mt-8">{t("contactUs.title")}</h2>
+            <h3 className="text-[1.75rem] mb-4">
+              {t("contactUs.phoneNumber")}
+            </h3>
 
             <LanguagesPhoneDropdown />
 
-            <h4 className="mt-6">Service Center Hours</h4>
+            <h4 className="mt-6">{t("contactUs.serviceCenterHours.title")}</h4>
             <p>
-              Monday to Friday: 8 a.m. to 6 p.m. <br />
-              Saturday and Sunday: Closed
+              {t("contactUs.serviceCenterHours.weekdays")} <br />
+              {t("contactUs.serviceCenterHours.weekends")}
             </p>
 
-            <h4 className="mt-20">New Customers</h4>
+            <h4 className="mt-20">{t("newCustomers.title")}</h4>
             <a className="font-bold mb-4 block" href="">
-              Get a call back from a licensed agent.{" "}
+              {t("newCustomers.description")}{" "}
               <ArrowForwardIcon fontSize="inherit" />
             </a>
 
             <hr />
           </section>
           <section className="flex flex-col items-center ">
-            <h4>Follow Us</h4>
+            <h4>{t("followUs")}</h4>
             <div className="flex items-center gap-6 mt-6">
               <a href="">
                 <Image
@@ -69,40 +75,40 @@ function Footer() {
         </div>
         <section className="flex gap-8">
           <div>
-            <h4>Shop</h4>
+            <h4>{t("shop.title")}</h4>
             <hr />
             <ul>
-              <li>Shop and Compare</li>
-              <li>Find an Enroller</li>
-              <li>Apply</li>
+              <li>{t("shop.shopAndCompare")}</li>
+              <li>{t("shop.findAnEnroller")}</li>
+              <li>{t("shop.apply")}</li>
             </ul>
-            <h4>My Account</h4>
+            <h4>{t("myAccount.title")}</h4>
             <hr />
             <ul>
-              <li>Sign In</li>
-              <li>Create an Account</li>
+              <li>{t("myAccount.signIn")}</li>
+              <li>{t("myAccount.createAnAccount")}</li>
             </ul>
             <ul className="font-bold">
-              <li>Covered California for Small Business</li>
-              <li>Enrollment Partners and Agents</li>
-              <li>Newsroom</li>
-              <li>Careers</li>
-              <li>Register to Vote</li>
+              <li>{t("business.title")}</li>
+              <li>{t("enrollmentPartnersAndAgents.title")}</li>
+              <li>{t("newsroom.title")}</li>
+              <li>{t("careers.title")}</li>
+              <li>{t("registerToVote.title")}</li>
             </ul>
           </div>
           <div>
-            <h4>Learn</h4>
+            <h4>{t("learn.title")}</h4>
             <hr />
             <ul>
-              <li>Learning Center</li>
-              <li>Support</li>
-              <li>Health</li>
-              <li>Dental</li>
-              <li>Vision</li>
-              <li>Members</li>
-              <li>What is Covered California?</li>
-              <li>American Indians and Alaska Natives</li>
-              <li>Health Care Blog</li>
+              <li>{t("learn.learningCenter")}</li>
+              <li>{t("support.title")}</li>
+              <li>{t("support.health")}</li>
+              <li>{t("support.dental")}</li>
+              <li>{t("support.vision")}</li>
+              <li>{t("members.title")}</li>
+              <li>{t("members.whatIsCoveredCalifornia")}</li>
+              <li>{t("members.americanIndiansAndAlaskaNatives")}</li>
+              <li>{t("members.healthCareBlog")}</li>
             </ul>
           </div>
         </section>
