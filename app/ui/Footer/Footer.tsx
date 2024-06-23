@@ -9,7 +9,10 @@ function Footer() {
   const t = useTranslations("Footer");
 
   return (
-    <article className="p-4 bg-gradient-to-b from-slate-gray to-dark-slate-gray text-white">
+    <article
+      id="footer"
+      className="p-4 bg-gradient-to-b from-slate-gray to-dark-slate-gray text-white"
+    >
       <div className="mx-auto max-w-4xl md:flex md:gap-8">
         <div>
           <section className="text-center">
