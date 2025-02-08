@@ -16,6 +16,7 @@ This project aims to demonstrate how to optimize coveredca.com. As far as I can 
 Learn more about the design:
 https://dev.to/pgomezec/a-user-centered-coveredcacom-5hco
 
+Figma: 
 https://www.figma.com/file/SI5OLMV0gbzCZ33uFAOFFs/CoveredCa?type=design&node-id=2-7&mode=design&t=0KoM9vsMBQ99WPes-0
 
 ## Getting Started
